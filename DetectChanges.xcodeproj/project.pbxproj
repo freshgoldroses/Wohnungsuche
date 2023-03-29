@@ -38,6 +38,7 @@
 		BFA71BDC29CDA7D300F8781E /* ModalVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA71BDB29CDA7D300F8781E /* ModalVCDelegate.swift */; };
 		BFA9F37229C1F61E00ECB8F4 /* ImmoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9F37129C1F61E00ECB8F4 /* ImmoButton.swift */; };
 		BFBA6CF829D42F08004D0AFD /* ImmomioLinkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA6CF729D42F08004D0AFD /* ImmomioLinkFetcher.swift */; };
+		BFBA6CFA29D44438004D0AFD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA6CF929D44438004D0AFD /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		BFA71BDB29CDA7D300F8781E /* ModalVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalVCDelegate.swift; sourceTree = "<group>"; };
 		BFA9F37129C1F61E00ECB8F4 /* ImmoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmoButton.swift; sourceTree = "<group>"; };
 		BFBA6CF729D42F08004D0AFD /* ImmomioLinkFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmomioLinkFetcher.swift; sourceTree = "<group>"; };
+		BFBA6CF929D44438004D0AFD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E9D8D936A7A4791A5EED83EB /* Pods_DetectChanges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectChanges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				BF0F3F5A29BDDF89002909BB /* ConsolePrinter.swift */,
 				BF0F3F6429BDEA9F002909BB /* SoundManager.swift */,
 				BF5C017929C71574006C06D4 /* BackgroundAudioPlayer.swift */,
+				BFBA6CF929D44438004D0AFD /* LocationManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				BFA1C3D329C339540023396C /* UIView+removeAllSubviews.swift in Sources */,
 				BFA71BD629CD949800F8781E /* DetectDetent.swift in Sources */,
 				BF707BFE29BB427700225796 /* AppDelegate.swift in Sources */,
+				BFBA6CFA29D44438004D0AFD /* LocationManager.swift in Sources */,
 				BF4704BF29D2D52A00EEABEE /* Saga.swift in Sources */,
 				BF0F3F5B29BDDF89002909BB /* ConsolePrinter.swift in Sources */,
 				BFA71BDC29CDA7D300F8781E /* ModalVCDelegate.swift in Sources */,

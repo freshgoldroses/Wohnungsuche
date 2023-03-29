@@ -56,7 +56,7 @@ class ModalVC: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .yellow
         setupContainerView()
-        backgroundAudioPlayer.start(for: self)
+//        backgroundAudioPlayer.start(for: self)
     }
     
     override func viewDidLayoutSubviews() {
@@ -77,9 +77,9 @@ class ModalVC: UIViewController {
                     if isSecondRunPlus {
                         if !apartments.isEmpty {
                             containerView.removeAllSubviews()
-                            backgroundAudioPlayer.pause()
+//                            backgroundAudioPlayer.pause()
                             soundManager.playAlert()
-                            backgroundAudioPlayer.continuePlaying()
+//                            backgroundAudioPlayer.continuePlaying()
                             makeFeedback()
                         }
                         showButtons(for: apartments)

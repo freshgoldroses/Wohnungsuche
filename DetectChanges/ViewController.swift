@@ -11,6 +11,7 @@ import AVFoundation
 class ViewController: UIViewController {
     @IBOutlet weak var consoleTextView: UITextView!
     var modalVC: ModalVC?
+    let locationManager = LocationManager()
     
     //MARK: - VC Lifecycle
 
